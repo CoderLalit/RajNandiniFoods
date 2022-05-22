@@ -36,3 +36,148 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* custom CSS */
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+body{
+  background-color: #e9ecef;
+}
+
+.navbar{
+  /* position: absolute; */
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  /* box-shadow: gray 10px 10px 20px; */
+  grid-area: Navbar;
+}
+
+#menu-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 100%;
+}
+
+.icon-tray{
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width:fit-content;
+  height: 100%;
+}
+
+.menu-items li{
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.menu-items{
+  color: white;
+}
+
+#menu-container a:hover{
+  color: white;
+  border-bottom: 4px solid red;
+}
+
+#logo-img{
+  z-index: 1000;
+  position: relative;
+  top: -10px;
+  left: 0px;
+  transform: rotate(-20deg);
+  animation: float 4s infinite linear;
+}
+
+@keyframes float {
+    0%{
+        top: -10;
+    }  
+    
+    25%{
+        top: -20px;
+    }
+     
+    50%{
+        top: 0;
+    }  
+
+    100%{
+        top: -10px; 
+    }
+}
+
+/* main content page */
+#main-content{
+  /* background-color: #61dafb; */
+  /* height: 90.5vh; */
+  grid-area: MainContent;
+  width: 100vw;
+}
+
+/* footer */
+#footer{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  background-color: black;
+  grid-area: Footer;
+  width: 100vw;
+  bottom: 0px;
+}
+
+
+/* splash screen */
+#splash-screen{
+  /* background: url("./images/splash_img_bg.jpeg");
+  background-size: 100vw 100vh; */
+  display: flex;
+  z-index: 10000;
+  background-color: black;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  transition: all 5s;
+}
+
+#splash-img{
+  animation: reposition 1.5s 1 linear;
+}
+
+@keyframes reposition {
+  from{
+    width: 200px;
+    height: 200px;
+  }
+
+  to{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+#webpage{
+  display: none;
+  height: 100vh;
+}
+
