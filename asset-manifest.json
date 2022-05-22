@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.07567e81.css",
+    "main.js": "/react-gh-pages/static/js/main.cde7c9d7.js",
+    "static/js/787.12440877.chunk.js": "/react-gh-pages/static/js/787.12440877.chunk.js",
+    "static/media/Raj_Nandini_logo.png": "/react-gh-pages/static/media/Raj_Nandini_logo.1c2073291ab77769a872.png",
+    "static/media/carts.png": "/react-gh-pages/static/media/carts.78d31f89fd0956c424f9.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.07567e81.css.map": "/react-gh-pages/static/css/main.07567e81.css.map",
+    "main.cde7c9d7.js.map": "/react-gh-pages/static/js/main.cde7c9d7.js.map",
+    "787.12440877.chunk.js.map": "/react-gh-pages/static/js/787.12440877.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07567e81.css",
+    "static/js/main.cde7c9d7.js"
+  ]
+}
